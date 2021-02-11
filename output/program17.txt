@@ -1,0 +1,8 @@
+Enter number of tuple pairs: 3
+
+Enter tuple pair: (1,10)
+
+Enter tuple pair: (2,16)
+
+Enter tuple pair: (6,12)
+((2, 16), (6, 12))

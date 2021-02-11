@@ -1,0 +1,14 @@
+For triangle:
+Enter triangle's height: 3
+Enter triangle's base: 4
+For rectangle:
+Enter rectangle's length: 15
+Enter rectangle's breadth: 10
+For circle:
+Enter circle's radius: 7
+Area of triangle: 6.0
+Area of rectangle: 6.0
+Area of circle: 153.9384
+Perimeter of triangle: 12.0
+Perimeter of rectangle: 50.0
+Perimeter of circle: 43.9824

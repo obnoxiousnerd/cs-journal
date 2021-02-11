@@ -1,0 +1,13 @@
+Output(complex numbers):
+Enter value of a: 1
+Enter value of b: 0
+Enter value of c: 4
+The equation is 1.0x² 0.0x +4.0
+The roots are 2.0i and -2.0i
+
+Output(Normal, real numbers):
+Enter value of a: 2
+Enter value of b: 5
+Enter value of c: -3
+The equation is 2.0x² +5.0x -3.0
+The roots are 0.5 and -3.0

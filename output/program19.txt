@@ -1,0 +1,86 @@
+Initial Input:
+January
+31
+February
+28
+March
+31
+April
+30
+May
+31
+June
+30
+July
+31
+August
+31
+September
+30
+October
+31
+November
+30
+December
+31
+
+Output:
+Enter month name: January
+Enter number of days: 31  
+
+Enter month name: February
+Enter number of days: 28  
+
+Enter month name: March   
+Enter number of days: 31  
+
+Enter month name: April   
+Enter number of days: 30
+
+Enter month name: May
+Enter number of days: 31
+
+Enter month name: June
+Enter number of days: 30
+
+Enter month name: July
+Enter number of days: 31
+
+Enter month name: August
+Enter number of days: 31
+
+Enter month name: September
+Enter number of days: 30
+
+Enter month name: October
+Enter number of days: 31
+
+Enter month name: November
+Enter number of days: 30
+
+Enter month name: December
+Enter number of days: 31
+{'January': 31, 'February': 28, 'March': 31, 'April': 30, 'May': 31, 'June': 30, 'July': 31, 'August': 31, 'September': 30, 'October': 31, 'November': 30, 'December': 31}
+January : 31
+March : 31
+May : 31
+July : 31
+August : 31
+October : 31
+December : 31
+
+Enter month name: January
+Number of days in January : 31
+
+February : 28
+April : 30
+June : 30
+November : 30
+September : 30
+August : 31
+December : 31
+January : 31
+July : 31
+March : 31
+May : 31
+October : 31
