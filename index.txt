@@ -1,0 +1,29 @@
+1. Program to find areas and perimeters of a triangle, rectangle and circle
+2. To calculate total percentage of marks
+3. Program to convert height in cm to other units
+4. Program to calculate SI and CI
+5. Program to find roots of an equation
+6. Program to print numbers in ascending and descending order
+7. Program to check if a number is palindrome and to calculate the sum and product of the digits
+8. Program to print number of letters, digits, lowercase, uppercase, and special characters
+9. Program to find number of occurences of a substring
+10. Program to extract all the digits and find the sum
+11. Program to find the largest substring which starts with constant
+12. Program to print different patterns using nested loops
+13. Program to find min and max element in a list, search an element within the list, find sum average of all elements of list
+14. Program to get marks of all students and print them in manner
+15. Program to input two tuples and merge them in order such that first tuple elements are followed by second tuple elements
+16. Program to perform left shift, right shift on a list and reverse it
+17. Program to print all even pairs from tuple pairs
+18. Program to compute mean of mean of various tuples
+19. Program to perform various operations on dictionaries
+ i) Create dictionary of months of the year
+ ii) Print all keys in alphabetical order
+ iii) Print all months with 31 days
+ iv) Ask user to enter month name and its no of days
+ v) Print key-val pairs sorted by number of days
+20. Program to count frequency of list element using dictionary
+21. Program to sort a list using bubble sort
+22. Program to sort a list using insertion sort
+23. SQL Program
+24. SQL Program
