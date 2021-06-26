@@ -1,7 +1,0 @@
-Enter all the marks out of 50
-Enter your marks for English: 42
-Enter your marks for Physics: 37
-Enter your marks for Chemistry: 39
-Enter your marks for Math: 45
-Enter your marks for CS: 48
-Percentage obtained: 84.4

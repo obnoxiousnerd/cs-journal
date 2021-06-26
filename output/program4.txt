@@ -1,5 +1,0 @@
-Enter principal amount: 10000
-Enter rate of interest per annum: 5
-Enter rate of interest, in years: 3
-SI : 1500.0
-CI(compounded yearly): 1576.25

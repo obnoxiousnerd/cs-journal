@@ -1,13 +1,8 @@
-# Program to calculate SI and CI
+with open("lines.txt", "r") as file:
+    lines = file.readlines()
+    print(f"The file has {len(lines)} lines")
 
-P = float(input("Enter principal amount: "))
-R = float(input("Enter rate of interest per annum: "))
-T = int(input("Enter rate of interest, in years: "))
-
-SI = P * R * T / 100
-
-A = P * (1 + (R / 100)) ** T
-CI = A - P
-
-print(f"SI : {SI}")
-print(f"CI(compounded yearly): {round(CI, 3)}")
+    print("File contents line by line: ")
+    for line in lines:
+        # readlines does not remove line feed character so strip them while printing.
+        print(line.strip())

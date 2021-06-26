@@ -1,5 +1,0 @@
-Enter height in cm: 100
-Height in metres : 1.0 m
-Height in millimetres : 10000.0 mm
-Height in inches : 39.37007874015748 in
-Height in feet : 3.2808398950131235 ft

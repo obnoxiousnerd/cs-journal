@@ -1,15 +1,11 @@
-# Program to convert height in cm to other units
+# Program to count number of occurences of a given word from a file.
 
-h_cm = float(input("Enter height in cm: "))
+with open("lines.txt", "r") as file:
+    content = file.read()
+    word = input("Enter the word: ").lower()
 
-CM_FACTORS = {
-    "MM": 0.01,
-    "M": 100,
-    "IN": 2.54,
-    "FT": 30.48,
-}
+    words = content.lower().split()
+    print(f"Number of words: {len(words)}")
 
-print(f"Height in metres : {h_cm / CM_FACTORS['M']} m")
-print(f"Height in millimetres : {h_cm / CM_FACTORS['MM']} mm")
-print(f"Height in inches : {h_cm / CM_FACTORS['IN']} in")
-print(f"Height in feet : {h_cm / CM_FACTORS['FT']} ft")
+    occurences = words.count(word)
+    print(f'Number of occurences of "{word}": {occurences}')

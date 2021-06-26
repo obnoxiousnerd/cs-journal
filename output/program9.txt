@@ -1,3 +1,0 @@
-Enter a string: Linux's cat and animal cat are not the same
-Enter the substring: cat
-Number of occurences of cat: 2

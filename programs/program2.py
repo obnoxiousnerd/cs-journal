@@ -1,12 +1,26 @@
-# To calculate total percentage of marks
+# Program to check number of alphabets, digits, vowels, lowercase and uppercase characters.
 
-print("Enter all the marks out of 50")
 
-eng_marks = int(input("Enter your marks for English: "))
-phy_marks = int(input("Enter your marks for Physics: "))
-che_marks = int(input("Enter your marks for Chemistry: "))
-math_marks = int(input("Enter your marks for Math: "))
-cs_marks = int(input("Enter your marks for CS: "))
+def parse(text):
+    alpha = lc = uc = vowel = digit = 0
+    for chr in text:
+        if chr.isalpha():
+            alpha += 1
+            if chr.islower():
+                lc += 1
+            elif chr.isupper():
+                uc += 1
+            if chr.lower() in "aeiou":
+                vowel += 1
+        elif chr.isdigit():
+            digit += 1
+    return alpha, lc, uc, vowel, digit
 
-per = (eng_marks + phy_marks + che_marks + math_marks + cs_marks) * 100 / 250
-print(f"Percentage obtained: {per}")
+
+with open("lines.txt", "r") as file:
+    alpha, lc, uc, vowel, digit = parse(file.read())
+    print(f"Number of alphabets: {alpha}")
+    print(f"Number of lowercase characters: {lc}")
+    print(f"Number of uppercase characters: {uc}")
+    print(f"Number of vowels: {vowel}")
+    print(f"Number of digits: {digit}")

@@ -1,23 +1,16 @@
-# Program to find roots of an equation
+# Program to copy file contents to another file.
 
-import math
+filename = input("Enter name of file to copy: ")
+destination = input("Enter name of destination file: ")
 
-a = float(input("Enter value of a: "))
-if not a:
-    print("a cannot be null in a quadratic equation")
-else:
-    b = float(input("Enter value of b: "))
-    c = float(input("Enter value of c: "))
-    print(f"The equation is {a}x² {'+' if b > 0 else ''}{b}x {'+' if c > 0 else ''}{c}")
-    d = (b ** 2) - (4 * a * c)
-    if d < 0:
-        x1 = ((-b + pow(d, 0.5)) / (2 * a)).imag
-        x2 = ((-b - pow(d, 0.5)) / (2 * a)).imag
-        print(f"The roots are {x1}i and {x2}i")
-    elif d == 0:
-        x = -b / (2 * a)
-        print(f"The root is {x}")
-    elif d > 0:
-        x1 = (-b + math.sqrt(d)) / (2 * a)
-        x2 = (-b - math.sqrt(d)) / (2 * a)
-        print(f"The roots are {x1} and {x2}")
+
+with open(filename, "r") as src, open(destination, "w+") as dest:
+    dest.write(src.read())
+    print(f"Copied contents of {filename} to {destination}")
+
+    print(f"Contents of {destination}: ")
+    # Move file cursor at the start.
+    dest.seek(0)
+    # At this point, dest.read() is exactly same as src.read().
+    # However, dest.read() is used because of obvious reasons.
+    print(dest.read())

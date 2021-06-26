@@ -1,2 +1,0 @@
-Enter a sentence: A vowel and a consonant
-The largest substring is consonant with 9 characters
