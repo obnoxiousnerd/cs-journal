@@ -1,0 +1,32 @@
+{
+    "float input": {
+        "scope": "python",
+        "prefix": "floatinput",
+        "body": "float(input(\"$0\"))",
+        "description": "description"
+    },
+    "eval input": {
+        "scope": "python",
+        "prefix": "evalinput",
+        "body": "eval(input(\"$0\"))",
+        "description": "description"
+    },
+    "integer input": {
+        "scope": "python",
+        "prefix": "intinput",
+        "body": "int(input(\"$0\"))",
+        "description": "description"
+    },
+    "safe eval": {
+        "scope": "python",
+        "prefix": "safeval",
+        "body": "from ast import literal_eval as eval",
+        "description": ""
+    },
+    "for range loop": {
+        "scope": "python",
+        "prefix": "forrange",
+        "body": "for i in range($0):",
+        "description": ""
+    }
+}

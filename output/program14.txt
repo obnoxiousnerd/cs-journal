@@ -1,0 +1,17 @@
+Enter number of students: 3
+
+Student 1
+Enter marks in subject 1: 12
+Enter marks in subject 2: 15
+Enter marks in subject 3: 17
+
+Student 2
+Enter marks in subject 1: 16
+Enter marks in subject 2: 19
+Enter marks in subject 3: 11
+
+Student 3
+Enter marks in subject 1: 13
+Enter marks in subject 2: 15
+Enter marks in subject 3: 18
+((12, 15, 17), (16, 19, 11), (13, 15, 18))

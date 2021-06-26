@@ -1,0 +1,4 @@
+Enter a list: [1,2,3,4]
+Left shift: [2, 3, 4, 1]
+Right shift: [4, 1, 2, 3]
+Reversed: [4, 3, 2, 1]

@@ -1,0 +1,3 @@
+Enter a string with numbers: 1 and 2 add up to three
+Number of digits : 2
+Sum of digits : 3

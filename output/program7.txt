@@ -1,0 +1,5 @@
+Enter a number: 121 
+121 is palindrome
+reverse of n : 121
+sum of digits : 4
+product of digits : 2

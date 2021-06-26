@@ -1,0 +1,6 @@
+Enter a sentence: The bill is $50.
+No. of lowercase characters : 8
+No. of uppercase characters : 1
+No. of special characters : 2
+No. of digits : 2
+No. of spaces : 3
