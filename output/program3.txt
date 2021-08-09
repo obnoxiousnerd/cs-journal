@@ -1,0 +1,3 @@
+Enter the word: the
+Number of words: 18
+Number of occurences of "the": 3

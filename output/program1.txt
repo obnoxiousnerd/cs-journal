@@ -1,2 +1,3 @@
-Enter a number: Is 1331 prime? : False
+Enter a number: 1331
+Is 1331 prime? : False
 Is 1331 palindrome? : True

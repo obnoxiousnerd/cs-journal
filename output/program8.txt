@@ -1,0 +1,6 @@
+Rectangle
+Square
+Triangle
+Area of rectangle: 200
+Area of square: 100
+Area of triangle: 0.0

@@ -1,4 +1,6 @@
-Enter name of file to copy: Enter name of destination file: Copied contents of lines.txt to lines-copy.txt
+Enter name of file to copy: lines.txt
+Enter name of destination file: lines-copy.txt
+Copied contents of lines.txt to lines-copy.txt
 Contents of lines-copy.txt: 
 The quick brown fox jumps over the lazy dog.
 This is the 2nd sentence out of all 2.

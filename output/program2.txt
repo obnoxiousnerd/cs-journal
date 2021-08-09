@@ -1,0 +1,5 @@
+Number of alphabets: 62
+Number of lowercase characters: 60
+Number of uppercase characters: 2
+Number of vowels: 21
+Number of digits: 2
