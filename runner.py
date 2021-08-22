@@ -1,5 +1,6 @@
 import os
 import subprocess
+import platform
 from typing import Union
 
 
@@ -44,8 +45,7 @@ def run(prog_num: int) -> Union[str, None]:
     prog_input_path = os.path.join(input_path, f"program{prog_num}.txt")
     prog_output_path = os.path.join(output_path, f"program{prog_num}.txt")
 
-    prog_patched_path = os.path.join(
-        programs_path, f"program{prog_num}_patched.py")
+    prog_patched_path = os.path.join(programs_path, f"program{prog_num}_patched.py")
 
     patches = open("./patches.py", "r").read()
 
@@ -54,9 +54,9 @@ def run(prog_num: int) -> Union[str, None]:
         # To be extra-safe, append newline to seperate patches.
         file.write("\n")
         file.write(open(prog_path, "r").read())
-
+    python_command = "py" if platform.system() == "Windows" else "python3"
     process = subprocess.Popen(
-        args=["py", prog_patched_path],
+        args=["python3", prog_patched_path],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
