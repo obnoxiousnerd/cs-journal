@@ -19,6 +19,9 @@ class Queue:
         return self.items.pop(0)
 
     def peek(self):
+        if len(self.items) == 0:
+            print("Queue is empty.")
+            return None
         return self.items[-1]
 
     def size(self):
@@ -43,11 +46,10 @@ def menu_loop():
     choice = int(input("Enter your choice: "))
 
     if choice == 1:
-        item = int(input("Enter item to push (integer): "))
+        item = int(input("Enter item to enqueue (integer): "))
         queue.enqueue(item)
     elif choice == 2:
-        popped_item = queue.dequeue()
-        print(popped_item)
+        print(queue.dequeue())
     elif choice == 3:
         print(queue.items)
     elif choice == 4:

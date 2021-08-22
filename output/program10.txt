@@ -8,13 +8,13 @@ Menu for queue operations
 6. Quit
 
 Enter your choice: 1
-Enter item to push (integer): 10
+Enter item to enqueue (integer): 10
 Enter your choice: 1
-Enter item to push (integer): 20
+Enter item to enqueue (integer): 20
 Enter your choice: 1
-Enter item to push (integer): 30
+Enter item to enqueue (integer): 30
 Enter your choice: 1
-Enter item to push (integer): 40
+Enter item to enqueue (integer): 40
 Enter your choice: 3
 [10, 20, 30, 40]
 Enter your choice: 5
