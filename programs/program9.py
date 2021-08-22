@@ -1,9 +1,11 @@
 # Menu based program to perform stack operations.
 
+
 class Stack:
     """
     Class Stack is a classic implementation of the stack data structure.
     """
+
     def __init__(self) -> None:
         self.items = []
 
@@ -18,7 +20,7 @@ class Stack:
         Method pop pops an item from the stack.
         """
         return self.items.pop()
-    
+
     def peek(self):
         """
         Method peek returns the top of the stack
@@ -30,15 +32,14 @@ class Stack:
 
     def size(self):
         """
-        Method size returns the length of the underlying buffer. 
+        Method size returns the length of the underlying buffer.
         """
         return len(self.items)
 
 
 stack = Stack()
 
-def menu_loop():
-    menu = """
+menu = """
 1. Push
 2. Pop
 3. Display
@@ -46,37 +47,35 @@ def menu_loop():
 5. Value of top
 6. Quit
 """
-    print("Menu for stack operations")
-    print(menu)
+print("Menu for stack operations")
+print(menu)
 
+
+def menu_loop():
     choice = int(input("Enter your choice: "))
 
     if choice == 1:
         item = int(input("Enter item to push (integer): "))
         stack.push(item)
-
     elif choice == 2:
         popped_item = stack.pop()
         print(popped_item)
-
     elif choice == 3:
         print(stack.items)
-
     elif choice == 4:
         print(stack.size())
-
     elif choice == 5:
         print(stack.peek())
     elif choice == 6:
         exit(0)
     else:
         print("You entered a wrong choice.")
-        second_choice = input("Do you want to continue?"
-                +" If so, then type 'yes': ")
+        second_choice = input("Do you want to continue?" + " If so, then type 'yes': ")
         if second_choice == "yes":
             menu_loop()
         else:
             exit(0)
     menu_loop()
+
 
 menu_loop()

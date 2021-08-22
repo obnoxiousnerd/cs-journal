@@ -1,0 +1,30 @@
+Menu for stack operations
+
+1. Push
+2. Pop
+3. Display
+4. Size
+5. Value of top
+6. Quit
+
+Enter your choice: 1
+Enter item to push (integer): 10
+Enter your choice: 1
+Enter item to push (integer): 20
+Enter your choice: 1
+Enter item to push (integer): 30
+Enter your choice: 1
+Enter item to push (integer): 40
+Enter your choice: 3
+[10, 20, 30, 40]
+Enter your choice: 5
+40
+Enter your choice: 2
+40
+Enter your choice: 2
+30
+Enter your choice: 3
+[10, 20]
+Enter your choice: 5
+20
+Enter your choice: 6
