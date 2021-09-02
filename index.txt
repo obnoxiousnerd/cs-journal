@@ -9,4 +9,4 @@
 9: Menu based program to perform stack operations.
 10: Menu based program to perform queue operations
 11: Program to open a webpage using urllib library
-12: Write a program to perform read and write operation on CSV file
+12: Program to perform read and write operation on CSV file

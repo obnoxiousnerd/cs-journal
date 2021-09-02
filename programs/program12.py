@@ -1,4 +1,4 @@
-# Write a program to perform read and write operation on CSV file.
+# Program to perform read and write operation on CSV file.
 
 import csv
 
