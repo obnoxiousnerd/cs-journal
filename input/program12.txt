@@ -1,0 +1,14 @@
+1
+2
+10
+Wayne
+Science
+92
+yes
+2
+Cris
+Science
+98
+no
+1
+3
