@@ -1,7 +1,6 @@
 # Write a program to perform read and write operation on CSV file.
 
 import csv
-from os import name
 
 
 def read_data():
