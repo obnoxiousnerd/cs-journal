@@ -56,7 +56,7 @@ def run(prog_num: int) -> Union[str, None]:
         file.write(open(prog_path, "r").read())
     python_command = "py" if platform.system() == "Windows" else "python3"
     process = subprocess.Popen(
-        args=["python3", prog_patched_path],
+        args=[python_command, prog_patched_path],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
