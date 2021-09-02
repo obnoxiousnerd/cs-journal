@@ -13,6 +13,10 @@ filenums = [
     if f.endswith(".py")
 ]
 
+# Sorting is necessary because for eg. "program10.py" is executed earlier than
+# "program2.py". This is confirmed on Linux systems (WSL2).
+filenums.sort()
+
 
 def run_program(prog_num):
     print(f"Running program {prog_num}...")
