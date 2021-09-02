@@ -1,5 +1,7 @@
+#! /usr/bin/python3
 import os
 from runner import run
+from multiprocessing import Pool
 
 filenums = [
     # Get the filename (everything before the extension),
@@ -11,7 +13,8 @@ filenums = [
     if f.endswith(".py")
 ]
 
-for prog_num in filenums:
+
+def run_program(prog_num):
     print(f"Running program {prog_num}...")
 
     proc_stderr = run(int(prog_num))
@@ -19,3 +22,8 @@ for prog_num in filenums:
     if proc_stderr:
         print("Output of STDERR: ")
         print(proc_stderr)
+
+
+# Run programs in parallel.
+pool = Pool()
+pool.map_async(run_program, [prog_num for prog_num in filenums]).get()
