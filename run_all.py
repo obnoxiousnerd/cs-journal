@@ -13,10 +13,6 @@ filenums = [
     if f.endswith(".py")
 ]
 
-# Sorting is necessary because for eg. "program10.py" is executed earlier than
-# "program2.py". This is confirmed on Linux systems (WSL2).
-filenums.sort()
-
 
 def run_program(prog_num):
     print(f"Running program {prog_num}...")
@@ -27,6 +23,9 @@ def run_program(prog_num):
         print("Output of STDERR: ")
         print(proc_stderr)
 
+
+if os.environ.get("COMP_LINE"):
+    print("complete")
 
 # Run programs in parallel.
 pool = Pool()
