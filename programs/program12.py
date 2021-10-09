@@ -32,7 +32,7 @@ while True:
             roll_no = input("Enter roll no of student: ")
             name = input("Enter name of student: ")
             stream = input("Enter stream of student: ")
-            marks = input("Enter marks of the student: ")
+            marks = input("Enter marks of student: ")
             choice = input("Do you want to continue? If so, then type 'yes': ")
             if choice != "yes":
                 continue_asking = False

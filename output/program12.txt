@@ -7,15 +7,15 @@ Enter your choice: 2
 Enter roll no of student: 10
 Enter name of student: Wayne
 Enter stream of student: Science
-Enter marks of the student: 92
+Enter marks of student: 92
 Do you want to continue? If so, then type 'yes': yes
 
-Enter roll no of student: 2
+Enter roll no of student: 7
 Enter name of student: Cris
 Enter stream of student: Science
-Enter marks of the student: 98
+Enter marks of student: 98
 Do you want to continue? If so, then type 'yes': no
 Enter your choice: 1
 ['10', 'Wayne', 'Science', '92']
-['2', 'Cris', 'Science', '98']
+['7', 'Cris', 'Science', '98']
 Enter your choice: 3
