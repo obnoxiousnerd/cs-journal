@@ -10,3 +10,8 @@
 10: Menu based program to perform queue operations
 11: Program to open a webpage using urllib library
 12: Program to perform read and write operation on CSV file
+13: Write a random number generator that generates random numbers between 1 and 6 (simulates a dice)
+14: Create a binary file with the name and roll number. Search for a given roll number and display the name, if not found display the appropriate message
+15: Read a text file line by line and display each word separated by a #
+16: Remove all the lines that contain the character ‘a’ in a file and write it to another file
+17: Create a CSV file by entering user-id and password, read and search the password for given userid

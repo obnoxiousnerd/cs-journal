@@ -1,0 +1,30 @@
+
+1. Create file
+2. Search by roll number
+3. Quit
+
+
+Enter your choice: 1
+Enter number of students: 5
+
+Enter student name: David
+Enter student roll no: 1
+
+Enter student name: Aaron
+Enter student roll no: 2
+
+Enter student name: Luke
+Enter student roll no: 3
+
+Enter student name: Rafael
+Enter student roll no: 4
+
+Enter student name: Harry
+Enter student roll no: 5
+Saved data
+
+Enter your choice: 2
+Enter roll number to search: 1
+The name is: David
+
+Enter your choice: 3

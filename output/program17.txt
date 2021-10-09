@@ -1,0 +1,20 @@
+
+1. Create file
+2. Search by userid
+3. Quit
+
+
+Enter your choice: 1
+Enter number of entries: 2
+
+Enter username: urleater
+Enter password: 143637
+
+Enter username: fauscark
+Enter password: 899932
+
+Enter your choice: 2
+Enter userid to search: fauscark
+899932
+
+Enter your choice: 3
