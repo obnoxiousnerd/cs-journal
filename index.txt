@@ -15,3 +15,4 @@
 15: Read a text file line by line and display each word separated by a #
 16: Remove all the lines that contain the character ‘a’ in a file and write it to another file
 17: Create a CSV file by entering user-id and password, read and search the password for given userid
+18: Write a python database connectivity program to insert, delete, update and read records

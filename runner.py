@@ -46,7 +46,6 @@ def run(prog_num: int) -> Union[str, None]:
     prog_output_path = os.path.join(output_path, f"program{prog_num}.txt")
 
     prog_patched_path = os.path.join(programs_path, f"program{prog_num}_patched.py")
-
     patches = open("./patches.py", "r").read()
 
     with open(prog_patched_path, "w+") as file:

@@ -5,7 +5,7 @@
 
 
 Enter your choice: 1
-Enter number of students: 5
+Enter number of students: 3
 
 Enter student name: David
 Enter student roll no: 1
@@ -15,12 +15,6 @@ Enter student roll no: 2
 
 Enter student name: Luke
 Enter student roll no: 3
-
-Enter student name: Rafael
-Enter student roll no: 4
-
-Enter student name: Harry
-Enter student roll no: 5
 Saved data
 
 Enter your choice: 2

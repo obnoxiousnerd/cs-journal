@@ -1,0 +1,67 @@
+Table created successfully
+Table structure:
+('RollNo', b'int', 'YES', '', None, '')
+('Name', b'varchar(255)', 'YES', '', None, '')
+('Marks', b'float(4,2)', 'YES', '', None, '')
+('Section', b'char(1)', 'YES', '', None, '')
+('Project', b'varchar(255)', 'YES', '', None, '')
+1. Insert record using static data
+2. Insert record using custom data
+3. Delete record
+4. Update record
+5. Display n records
+Enter your choice: 1
+Record added successfully
+Total number of rows retrieved in resultset: 1
+(1, 'Pranav', 91.8, 'A', 'Report card generation')
+Do you want to continue? (y/n): y
+1. Insert record using static data
+2. Insert record using custom data
+3. Delete record
+4. Update record
+5. Display n records
+Enter your choice: 2
+Enter roll number: 2
+Enter name: Harry
+Enter marks: 88.9
+Enter section: A
+Enter project: Grocery list maker
+Record added successfully
+Total number of rows retrieved in resultset: 2
+(1, 'Pranav', 91.8, 'A', 'Report card generation')
+(2, 'Harry', 88.9, 'A', 'Grocery list maker')
+Do you want to insert more records? (y/n): n
+Do you want to continue? (y/n): y
+1. Insert record using static data
+2. Insert record using custom data
+3. Delete record
+4. Update record
+5. Display n records
+Enter your choice: 4
+Enter roll number of student to edit: 1
+Enter new project: Email server management
+Record updated successfully
+(1, 'Pranav', 91.8, 'A', 'Email server management')
+Do you want to continue? (y/n): y
+1. Insert record using static data
+2. Insert record using custom data
+3. Delete record
+4. Update record
+5. Display n records
+Enter your choice: 5
+Enter number of records: 2
+Total number of rows retrieved in resultset: 2
+(1, 'Pranav', 91.8, 'A', 'Email server management')
+(2, 'Harry', 88.9, 'A', 'Grocery list maker')
+Do you want to continue? (y/n): y
+1. Insert record using static data
+2. Insert record using custom data
+3. Delete record
+4. Update record
+5. Display n records
+Enter your choice: 3
+Enter roll number: 2
+Record deleted successfully
+Total number of rows retrieved in resultset: 1
+(1, 'Pranav', 91.8, 'A', 'Email server management')
+Do you want to continue? (y/n): n
