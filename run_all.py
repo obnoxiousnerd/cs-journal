@@ -28,5 +28,8 @@ if os.environ.get("COMP_LINE"):
     print("complete")
 
 # Run programs in parallel.
-pool = Pool()
-pool.map_async(run_program, [prog_num for prog_num in filenums]).get()
+# pool = Pool()
+# pool.map_async(run_program, [prog_num for prog_num in filenums]).get()
+
+# SQL programs need sequential run, so run in sequence.
+[run_program(prog_num) for prog_num in filenums]

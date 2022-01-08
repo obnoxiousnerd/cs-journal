@@ -1,0 +1,1 @@
+[('roll_no', b'int', 'YES', '', None, ''), ('name', b'varchar(20)', 'YES', '', None, '')]

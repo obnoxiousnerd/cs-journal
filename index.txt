@@ -16,3 +16,11 @@
 16: Remove all the lines that contain the character ‘a’ in a file and write it to another file
 17: Create a CSV file by entering user-id and password, read and search the password for given userid
 18: Write a python database connectivity program to insert, delete, update and read records
+19: SQL Queries
+20: Program to test connectivity to a MySQL server
+21: MySQL show databases and show tables command
+22: MySQL create table command
+23: MySQL insert command
+24: MySQL select command with fetchall()
+25: MySQL update command
+26: MySQL delete command

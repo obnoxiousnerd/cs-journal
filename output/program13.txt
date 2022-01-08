@@ -1,7 +1,7 @@
 Random number generator
 The random number is: 1
 Do you want to continue? [y/N]: y
-The random number is: 4
+The random number is: 1
 Do you want to continue? [y/N]: y
-The random number is: 6
+The random number is: 2
 Do you want to continue? [y/N]: n

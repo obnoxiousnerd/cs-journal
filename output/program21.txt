@@ -1,0 +1,2 @@
+[('information_schema',), ('journal_store',), ('mysql',), ('performance_schema',), ('school',), ('sys',), ('test',), ('world',)]
+[('city',), ('country',), ('countrylanguage',)]
