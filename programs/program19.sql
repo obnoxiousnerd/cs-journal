@@ -30,7 +30,7 @@ insert into suppliers values(23, "NotWalmart Sellers");
 insert into suppliers values(24, "Fathom Supply");
 insert into suppliers values(25, "SupplyLead") ;
 
--- Display details of all the items in the  table in ascending order of last_buy
+-- Display details of all the items in the store table in ascending order of last_buy
 select * from store order by last_buy;
 
 -- Display item_no and itemname of those items from the store table whose rate
@@ -51,9 +51,17 @@ select item, qty from store s, suppliers p where s.scode = p.scode and p.sname =
 -- Give output of the following SQL queries
 
 select count(distinct scode) from store;
+-- count(distinct scode)
+-- 5
 
 select rate * qty from store where item_no = 102;
+-- rate * qty
+-- 1000
 
 select item, sname from store s, suppliers p where s.scode = p.scode and s.item_no = 102;
+-- item    sname
+-- Pencil  Lime Plastics
 
 select max(last_buy) from store;
+-- max(last_buy)
+-- 9-Jan-21
